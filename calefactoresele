@@ -1,7 +1,7 @@
 from calefactores import Calefactor
 
 
-class CalefactorElectrico(Calefactor):
+class CalefactorElectrico(calefactores):
     __Pmaxima = None
 
     def __init__(self, marca, modelo,pmax):
